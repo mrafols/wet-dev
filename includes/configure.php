@@ -1,6 +1,10 @@
 <?php
   define('HTTP_SERVER', 'http://www.wetsensations.es');
   define('HTTPS_SERVER', 'http://www.wetsensations.es');
+  
+  #This is for dev
+  #define('HTTP_SERVER', 'http://wet-dev.com');
+  #define('HTTPS_SERVER', 'http://wet-dev.com');	
   define('ENABLE_SSL', false);
   define('HTTP_COOKIE_DOMAIN', '');
   define('HTTPS_COOKIE_DOMAIN', '');
