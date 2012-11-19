@@ -1,0 +1,24 @@
+a:12:{s:8:"encoding";s:5:"UTF-8";s:5:"title";s:24:"osCommerce Contributions";s:4:"link";s:25:"http://www.oscommerce.com";s:11:"description";s:29:"osCommerce, Sell With Emotion";s:8:"language";s:2:"en";s:9:"copyright";s:29:"Copyright (c) 2010 osCommerce";s:14:"managingEditor";s:19:"hpdl@oscommerce.com";s:11:"image_title";s:10:"osCommerce";s:9:"image_url";s:53:"http://www.oscommerce.com/images/oscommerce_88x31.gif";s:10:"image_link";s:25:"http://www.oscommerce.com";s:5:"items";a:5:{i:0;a:4:{s:5:"title";s:18:"TNT Express France";s:4:"link";s:38:"http://addons.oscommerce.com/info/8223";s:11:"description";s:204:"v2.0.1 : <br />
+- Modification de la pr&eacute;sentation des Relais Colis (front)<br />
+- Modification du suivi des colis (front)<br />
+- Correction activation/d&eacute;sactivation du module (admin)<br />";s:7:"pubDate";s:31:"Tue, 14 Feb 2012 08:30:33 -0500";}i:1;a:4:{s:5:"title";s:40:"Discount Coupon Codes 3.34 for osc 2.3.1";s:4:"link";s:38:"http://addons.oscommerce.com/info/7644";s:11:"description";s:378:"EN:<br />
+<br />
+I have changed the appearance of buttons and added jquery datepicker to date fields.<br />
+Now the buttons look like other buttons in OSC 2.3.x<br />
+<br />
+PL:<br />
+<br />
+Zmieni&amp;#322;em wygl&amp;#261;d przycisk&oacute;w i doda&amp;#322;em jquery datepicker do p&oacute;l z datami.<br />
+Teraz przyciski wygl&amp;#261;daj&amp;#261; jak inne w wersji 2.3.x";s:7:"pubDate";s:31:"Thu, 25 Oct 2012 04:35:05 -0400";}i:2;a:4:{s:5:"title";s:23:"FedEx - Web Services v9";s:4:"link";s:38:"http://addons.oscommerce.com/info/7977";s:11:"description";s:418:"v9.4.3.1 by Roaddoctor 10/24/2012<br />
+ Changes since v9.4.3<br />
+ - Fixed sort order nested function.<br />
+ <br />
+Updating 9.4.3 to 9.4.3.1: Replace /catalog/includes/modules/shipping/fedexwebservices.php with the attached file.<br />
+<br />
+This is not a full package.<br />
+Credit to John W.<br />
+ <br />
+Support:<br />
+http://forums.oscommerce.com/topic/375063-fedex-web-services-v9/page__st__360#entry1653322";s:7:"pubDate";s:31:"Wed, 24 Oct 2012 12:45:58 -0400";}i:3;a:4:{s:5:"title";s:19:"Cleaning statistics";s:4:"link";s:38:"http://addons.oscommerce.com/info/8588";s:11:"description";s:82:"Cleaning statistics for: most watched and most purchased, adapted to version 2.3.3";s:7:"pubDate";s:31:"Wed, 24 Oct 2012 11:01:12 -0400";}i:4;a:4:{s:5:"title";s:12:"Facebook All";s:4:"link";s:38:"http://addons.oscommerce.com/info/8587";s:11:"description";s:470:"Facebook All module provides all facebook social plugins for oscommerce sites. module includes facebook login (Need Upgrade for upgrade got www.sourceaddons.com), facebook fanbox, facebook facepile, facebook subscribe,like, recommendations box, activity feed plugin. Boost and increase your site rate using facebook all module.<br />
+<br />
+For help, feedback, or any issue please contant us sourceaddons@ymail.com or simpply go to contact us section of sourceaddons.com";s:7:"pubDate";s:31:"Wed, 24 Oct 2012 09:28:36 -0400";}}s:11:"items_count";i:5;}
