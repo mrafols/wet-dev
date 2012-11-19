@@ -1,4 +1,4 @@
 Wetsensations
 =======
 
-Wetsensations repository development
+Wetsensations dev repo
