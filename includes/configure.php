@@ -1,10 +1,11 @@
 <?php
-  define('HTTP_SERVER', 'http://www.wetsensations.es');
-  define('HTTPS_SERVER', 'http://www.wetsensations.es');
+  #this is prod
+  #define('HTTP_SERVER', 'http://www.wetsensations.es');
+  #define('HTTPS_SERVER', 'http://www.wetsensations.es');
   
   #This is for dev
-  #define('HTTP_SERVER', 'http://wet-dev.com');
-  #define('HTTPS_SERVER', 'http://wet-dev.com');	
+  define('HTTP_SERVER', 'http://wet-dev.com');
+  define('HTTPS_SERVER', 'http://wet-dev.com');	
   define('ENABLE_SSL', false);
   define('HTTP_COOKIE_DOMAIN', '');
   define('HTTPS_COOKIE_DOMAIN', '');
@@ -26,9 +27,9 @@
   define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
   define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
 
-  define('DB_SERVER', 'mysql.loading.es:3306');
-  define('DB_SERVER_USERNAME', 'mckyavelik');
-  define('DB_SERVER_PASSWORD', 'Masterr00t');
+  define('DB_SERVER', 'localhost');
+  define('DB_SERVER_USERNAME', 'wet');
+  define('DB_SERVER_PASSWORD', '1cht41n4');
   define('DB_DATABASE', 'catalogws');
   define('USE_PCONNECT', 'false');
   define('STORE_SESSIONS', 'mysql');
