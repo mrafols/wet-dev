@@ -1,7 +1,7 @@
 <?php
 /*
   $Id$
-
+hola soy marc
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 

@@ -1,13 +1,13 @@
 <?php
-  define('HTTP_SERVER', 'http://www.wetsensations.es');
-  define('HTTP_CATALOG_SERVER', 'http://www.wetsensations.es');
-  define('HTTPS_CATALOG_SERVER', 'http://www.wetsensations.es');
+  define('HTTP_SERVER', 'http://development.wetsensations.es');
+  define('HTTP_CATALOG_SERVER', 'http://development.wetsensations.es');
+  define('HTTPS_CATALOG_SERVER', 'http://development.wetsensations.es');
   define('ENABLE_SSL_CATALOG', 'false');
-  define('DIR_FS_DOCUMENT_ROOT', '/var/www/vhosts/wetsensations.es/httpdocs/');
+  define('DIR_FS_DOCUMENT_ROOT', '/var/www/wet-dev/');
   define('DIR_WS_ADMIN', '/myadmin/');
-  define('DIR_FS_ADMIN', '/var/www/vhosts/wetsensations.es/httpdocs/myadmin/');
+  define('DIR_FS_ADMIN', '/var/www/wet-dev/myadmin/');
   define('DIR_WS_CATALOG', '/');
-  define('DIR_FS_CATALOG', '/var/www/vhosts/wetsensations.es/httpdocs/');
+  define('DIR_FS_CATALOG', '/var/www/wet-dev/');
   define('DIR_WS_IMAGES', 'images/');
   define('DIR_WS_ICONS', DIR_WS_IMAGES . 'icons/');
   define('DIR_WS_CATALOG_IMAGES', DIR_WS_CATALOG . 'images/');
@@ -25,9 +25,9 @@
   define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
   define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
 
-  define('DB_SERVER', 'mysql.loading.es:3306');
-  define('DB_SERVER_USERNAME', 'mckyavelik');
-  define('DB_SERVER_PASSWORD', 'Masterr00t');
+  define('DB_SERVER', 'localhost');
+  define('DB_SERVER_USERNAME', 'wet');
+  define('DB_SERVER_PASSWORD', '1cht41n4');
   define('DB_DATABASE', 'catalogws');
   define('USE_PCONNECT', 'false');
   define('STORE_SESSIONS', 'mysql');
