@@ -228,7 +228,7 @@ define ('EP_MAX_CATEGORIES', 2); // default is 7
 // VJ product attributes begin
 // **** Product Attributes ****
 // change this to false, if do not want to download product attributes
-define ('EP_PRODUCTS_WITH_ATTRIBUTES', false);  // default is true
+define ('EP_PRODUCTS_WITH_ATTRIBUTES', true);  // default is true
 
 // change this to true, if you use QTYpro and want to set attributes stock with EP.
 define ('EP_PRODUCTS_ATTRIBUTES_STOCK', false); // default is false
@@ -240,7 +240,6 @@ define ('EP_PRODUCTS_ATTRIBUTES_STOCK', false); // default is false
 $attribute_options_select = '';
 // $attribute_options_select = array('Size', 'Model'); // uncomment and fill with product options name you wish to download // comment this line, if you wish to download all product options
 // VJ product attributes end
-
 
 // ******************************************************************
 // BEGIN Define Custom Fields for your products database
@@ -369,7 +368,7 @@ define ('EP_UNLIMITED_IMAGES', false);  // default is false
 define ('EP_MVS_SUPPORT', false);  // default is false
 
 // Extra Fields Contribution 
-define ('EP_EXTRA_FIELDS_SUPPORT', true);  // default is false
+define ('EP_EXTRA_FIELDS_SUPPORT', false);  // default is false
 
 // UltraPics 2.05 LightBox Contrib (***FUNCTIONAL***)
 define ('EP_ULTRPICS_SUPPORT', false);  // default is false
@@ -1079,7 +1078,10 @@ if ( !empty($_GET['download']) && ($_GET['download'] == 'stream' or $_GET['downl
 //*******************************
 require(DIR_WS_INCLUDES . 'template_top.php');
 ?>
-<td class="pageHeading" valign="top"><?phpecho "Easy Populate ".EP_CURRENT_VERSION." - Default Language : " . EP_DEFAULT_LANGUAGE_NAME . '(' . EP_DEFAULT_LANGUAGE_ID .')' ;?>
+
+<td class="pageHeading" valign="top"><?php
+echo "Easy Populate ".EP_CURRENT_VERSION." - Default Language : " . EP_DEFAULT_LANGUAGE_NAME . '(' . EP_DEFAULT_LANGUAGE_ID .')' ;
+?>
 
 <script type="text/javascript"><!--
   function switchForm( field ) {
