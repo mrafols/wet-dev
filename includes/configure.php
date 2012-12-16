@@ -4,8 +4,8 @@
   #define('HTTPS_SERVER', 'http://www.wetsensations.es');
   
   #This is for dev
-  define('HTTP_SERVER', 'http://wet-dev.com');
-  define('HTTPS_SERVER', 'http://wet-dev.com');	
+  define('HTTP_SERVER', 'http://development.wetsensations.es');
+  define('HTTPS_SERVER', 'http://development.wetsensations.es');	
   define('ENABLE_SSL', false);
   define('HTTP_COOKIE_DOMAIN', '');
   define('HTTPS_COOKIE_DOMAIN', '');
@@ -23,7 +23,7 @@
   define('DIR_WS_LANGUAGES', DIR_WS_INCLUDES . 'languages/');
 
   define('DIR_WS_DOWNLOAD_PUBLIC', 'pub/');
-  define('DIR_FS_CATALOG', '/var/www/vhosts/wetsensations.es/httpdocs/');
+  define('DIR_FS_CATALOG', '/var/www/wet-dev/');
   define('DIR_FS_DOWNLOAD', DIR_FS_CATALOG . 'download/');
   define('DIR_FS_DOWNLOAD_PUBLIC', DIR_FS_CATALOG . 'pub/');
 
